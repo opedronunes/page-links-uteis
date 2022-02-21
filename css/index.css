@@ -12,7 +12,6 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
     background-color: #111927;
     background-image: 
         radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%), 
@@ -36,6 +35,12 @@ body
     border: 1px solid rgba(255, 255, 255, 0.125);
     padding: 20px;
 
+}
+
+#perfil h1
+{
+    font-size: 2.5rem;
+    font-weight: 700;
 }
 
 
