@@ -1,5 +1,4 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 *
 {
     padding: 0;
@@ -21,6 +20,8 @@ body
 }
 
 #box {
+    
+    font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,9 +33,7 @@ body
     backdrop-filter: blur(10px) saturate(180%);
     -webkit-backdrop-filter: blur(10px) saturate(180%);
     background-color: rgba(17, 25, 40, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    padding: 20px;
-
+    padding: 20px 0;
 }
 
 #perfil h1
@@ -89,14 +88,8 @@ body
 
 i
 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: #00ffff;
-    transition: all .3s;
-}
-
-i:hover
-{
-    transform: rotate(360deg);
 }
 
 @media screen and (max-width: 480px) {

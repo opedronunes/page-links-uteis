@@ -8,7 +8,7 @@ $(document).ready(function(){
             0 : {
                 items: 2
             },
-            600: {
+            480: {
                 items: 4
             }
         }
@@ -23,7 +23,13 @@ $(document).ready(function(){
             0 : {
                 items: 3
             },
+            480: {
+                items: 4
+            },
             600: {
+                items: 5
+            },
+            800: {
                 items: 6
             }
         }
