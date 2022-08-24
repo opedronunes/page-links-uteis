@@ -19,6 +19,7 @@ $(document).ready(function(){
         margin:5,
         autoplay:true,
         autoplayTimeout:1000,
+        dots: false,
         responsive: {
             0 : {
                 items: 3
